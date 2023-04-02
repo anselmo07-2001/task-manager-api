@@ -8,7 +8,7 @@ const UserRouter = require("./routers/user")
 const TaskRouter = require("./routers/task")
 
 const app = express()
-const port = process.env.port
+const port = process.env.PORT || 3000
 
 //Example of middleware
 // app.use((req,res,next) => {
